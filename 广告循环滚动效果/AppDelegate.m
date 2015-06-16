@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +17,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    ViewController * vc = [[ViewController alloc]init];
+    
+    UINavigationController * nav = [[UINavigationController alloc]initWithRootViewController:vc];
+    
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    self.window.rootViewController = nav;
+    
+    [self.window makeKeyAndVisible];
+    
     // Override point for customization after application launch.
     return YES;
 }
@@ -43,3 +55,7 @@
 }
 
 @end
+
+// 版权属于原作者
+// http://code4app.com (cn) http://code4app.net (en)
+// 发布代码于最专业的源码分享网站: Code4App.com 

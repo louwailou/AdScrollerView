@@ -10,10 +10,16 @@
 		5306FA291A45428C00E696C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5306FA281A45428C00E696C9 /* main.m */; };
 		5306FA2C1A45428C00E696C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5306FA2B1A45428C00E696C9 /* AppDelegate.m */; };
 		5306FA2F1A45428C00E696C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5306FA2E1A45428C00E696C9 /* ViewController.m */; };
-		5306FA321A45428C00E696C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5306FA301A45428C00E696C9 /* Main.storyboard */; };
 		5306FA341A45428C00E696C9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5306FA331A45428C00E696C9 /* Images.xcassets */; };
 		5306FA371A45428C00E696C9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5306FA351A45428C00E696C9 /* LaunchScreen.xib */; };
 		5306FA431A45428C00E696C9 /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5306FA421A45428C00E696C9 /* ________Tests.m */; };
+		5306FA4F1A4542CA00E696C9 /* AdScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5306FA4E1A4542CA00E696C9 /* AdScrollView.m */; };
+		5306FA521A4543C300E696C9 /* AdDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5306FA511A4543C300E696C9 /* AdDataModel.m */; };
+		5306FA6C1A4543E100E696C9 /* image0.png in Resources */ = {isa = PBXBuildFile; fileRef = 5306FA5C1A4543E100E696C9 /* image0.png */; };
+		5306FA6D1A4543E100E696C9 /* image1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5306FA5D1A4543E100E696C9 /* image1.png */; };
+		5306FA6E1A4543E100E696C9 /* image2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5306FA5E1A4543E100E696C9 /* image2.png */; };
+		5306FA6F1A4543E100E696C9 /* image3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5306FA5F1A4543E100E696C9 /* image3.png */; };
+		A48873BF1B2FBF18009AC321 /* AdDataPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = A48873BE1B2FBF18009AC321 /* AdDataPlist.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,12 +40,20 @@
 		5306FA2B1A45428C00E696C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5306FA2D1A45428C00E696C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5306FA2E1A45428C00E696C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5306FA311A45428C00E696C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5306FA331A45428C00E696C9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5306FA361A45428C00E696C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5306FA3C1A45428C00E696C9 /* 广告循环滚动效果Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "广告循环滚动效果Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5306FA411A45428C00E696C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5306FA421A45428C00E696C9 /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		5306FA4D1A4542CA00E696C9 /* AdScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdScrollView.h; sourceTree = "<group>"; };
+		5306FA4E1A4542CA00E696C9 /* AdScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdScrollView.m; sourceTree = "<group>"; };
+		5306FA501A4543C300E696C9 /* AdDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdDataModel.h; sourceTree = "<group>"; };
+		5306FA511A4543C300E696C9 /* AdDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdDataModel.m; sourceTree = "<group>"; };
+		5306FA5C1A4543E100E696C9 /* image0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image0.png; path = ImagesCell/image0.png; sourceTree = "<group>"; };
+		5306FA5D1A4543E100E696C9 /* image1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image1.png; path = ImagesCell/image1.png; sourceTree = "<group>"; };
+		5306FA5E1A4543E100E696C9 /* image2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image2.png; path = ImagesCell/image2.png; sourceTree = "<group>"; };
+		5306FA5F1A4543E100E696C9 /* image3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image3.png; path = ImagesCell/image3.png; sourceTree = "<group>"; };
+		A48873BE1B2FBF18009AC321 /* AdDataPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AdDataPlist.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +77,8 @@
 		5306FA1A1A45428B00E696C9 = {
 			isa = PBXGroup;
 			children = (
+				5306FA771A4576B300E696C9 /* Images */,
+				5306FA4C1A45429B00E696C9 /* AdScrollerView */,
 				5306FA251A45428C00E696C9 /* 广告循环滚动效果 */,
 				5306FA3F1A45428C00E696C9 /* 广告循环滚动效果Tests */,
 				5306FA241A45428C00E696C9 /* Products */,
@@ -85,7 +101,6 @@
 				5306FA2B1A45428C00E696C9 /* AppDelegate.m */,
 				5306FA2D1A45428C00E696C9 /* ViewController.h */,
 				5306FA2E1A45428C00E696C9 /* ViewController.m */,
-				5306FA301A45428C00E696C9 /* Main.storyboard */,
 				5306FA331A45428C00E696C9 /* Images.xcassets */,
 				5306FA351A45428C00E696C9 /* LaunchScreen.xib */,
 				5306FA261A45428C00E696C9 /* Supporting Files */,
@@ -117,6 +132,29 @@
 				5306FA411A45428C00E696C9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5306FA4C1A45429B00E696C9 /* AdScrollerView */ = {
+			isa = PBXGroup;
+			children = (
+				5306FA4D1A4542CA00E696C9 /* AdScrollView.h */,
+				5306FA4E1A4542CA00E696C9 /* AdScrollView.m */,
+				5306FA501A4543C300E696C9 /* AdDataModel.h */,
+				A48873BE1B2FBF18009AC321 /* AdDataPlist.plist */,
+				5306FA511A4543C300E696C9 /* AdDataModel.m */,
+			);
+			name = AdScrollerView;
+			sourceTree = "<group>";
+		};
+		5306FA771A4576B300E696C9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5306FA5C1A4543E100E696C9 /* image0.png */,
+				5306FA5D1A4543E100E696C9 /* image1.png */,
+				5306FA5E1A4543E100E696C9 /* image2.png */,
+				5306FA5F1A4543E100E696C9 /* image3.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +237,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5306FA321A45428C00E696C9 /* Main.storyboard in Resources */,
+				5306FA6E1A4543E100E696C9 /* image2.png in Resources */,
+				5306FA6F1A4543E100E696C9 /* image3.png in Resources */,
 				5306FA371A45428C00E696C9 /* LaunchScreen.xib in Resources */,
+				A48873BF1B2FBF18009AC321 /* AdDataPlist.plist in Resources */,
 				5306FA341A45428C00E696C9 /* Images.xcassets in Resources */,
+				5306FA6D1A4543E100E696C9 /* image1.png in Resources */,
+				5306FA6C1A4543E100E696C9 /* image0.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +261,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5306FA4F1A4542CA00E696C9 /* AdScrollView.m in Sources */,
+				5306FA521A4543C300E696C9 /* AdDataModel.m in Sources */,
 				5306FA2F1A45428C00E696C9 /* ViewController.m in Sources */,
 				5306FA2C1A45428C00E696C9 /* AppDelegate.m in Sources */,
 				5306FA291A45428C00E696C9 /* main.m in Sources */,
@@ -244,14 +288,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5306FA301A45428C00E696C9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5306FA311A45428C00E696C9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5306FA351A45428C00E696C9 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -412,6 +448,7 @@
 				5306FA481A45428C00E696C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5306FA491A45428C00E696C9 /* Build configuration list for PBXNativeTarget "广告循环滚动效果Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +457,7 @@
 				5306FA4B1A45428C00E696C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
